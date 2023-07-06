@@ -1,0 +1,25 @@
+{
+    "properties": {
+        "family": {
+            "type": "keyword"
+        },
+        "position": {
+            "type": "geo_point"
+        },
+        "id": {
+            "type": "integer"
+        },
+        "maxHP": {
+            "type": "integer"
+        },
+        "HP": {
+            "type": "integer"
+        },
+        "maxCP": {
+            "type": "integer"
+        },
+        "CP": {
+            "type": "integer"
+        }
+    }
+}

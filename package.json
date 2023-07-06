@@ -1,0 +1,27 @@
+{
+  "name": "surf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/bin/start.js",
+    "build": "tsc",
+    "install": "node dist/bin/install.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "elasticsearch": "^16.7.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^14.1.0",
+    "@types/async": "^3.2.20",
+    "@types/elasticsearch": "^5.0.40",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^20.4.0",
+    "typescript": "^5.1.6"
+  }
+}
