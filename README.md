@@ -1,2 +1,2 @@
 # surf-creatures
-Kind of pokemo
+Kind of pokemon
